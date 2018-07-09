@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/pnrET"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="                 ENTER PNR NUMBER"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/getpnrBTN"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="GET DETAIL"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_alignTop="@+id/trainNumTV"
+        android:text="TRAIN NUMBER : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trainNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/getpnrBTN"
+        android:layout_alignTop="@+id/textView"
+        android:text="train name.,.,.,."
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_marginTop="147dp"
+        android:text="TRAIN NAME : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trainNumTV"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="188dp"
+        android:text="00000"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_centerVertical="true"
+        android:text="JOUNEY DATE : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="date...."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_marginBottom="194dp"
+        android:text="STN. FROM : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fromTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginStart="146dp"
+        android:text="station from...."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_marginBottom="145dp"
+        android:text="STN. TO : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/toTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_marginStart="134dp"
+        android:text="station to...."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_marginBottom="104dp"
+        android:text="CLASS : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pnrET"
+        android:layout_marginBottom="65dp"
+        android:text="CHART PREPARED : "
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/classTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/toTV"
+        android:layout_alignTop="@+id/textView9"
+        android:text="1A/2A/3A/Sleeper..."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/chartTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_toEndOf="@+id/dateTV"
+        android:text="true / false ...."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
