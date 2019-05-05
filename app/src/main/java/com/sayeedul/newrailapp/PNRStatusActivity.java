@@ -52,8 +52,8 @@ public class PNRStatusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String pnrNumber = PNR.getText().toString();
-                url = "https://api.railwayapi.com/v2/pnr-status/pnr/"+ pnrNumber +"/apikey/vv2assld6o";
+                String pnrNumber = PNR.getText().toString().trim();
+                url = "https://api.railwayapi.com/v2/pnr-status/pnr/"+ pnrNumber +"/apikey/5xd242sgk5";
 
                 new PNRStatusActivity.PNRAsynTask().execute(url);
             }
